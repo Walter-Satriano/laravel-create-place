@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+
+header,
+footer {
+  background-color: orange;
+  text-align: center;
+}
+
+header h1,
+header h2,
+footer h1,
+footer h2 {
+  color: black;
+  padding: 15px 0;
+}
+
+.create_link,
+.back_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  margin: 10px 0;
+}
+
+.create_link a,
+.back_link a {
+  text-decoration: none;
+  padding: 10px 10px;
+  border: 2px solid orange;
+  background-color: lightyellow;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.place_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.place_list .place_items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 60px;
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: #ffc8c8;
+  margin: 25px 0;
+}
+
+.create_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create_form .form_group {
+  margin: 15px 0;
+}
+
+.create_form .form_group label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.create_form .form_group input {
+  border-style: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.create_form button {
+  padding: 5px 10px;
+  margin: 15px 0;
+  border-style: none;
+  border-radius: 5px;
+  border: 2px solid red;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ffc8c8;
+  color: black;
+  cursor: pointer;
+}
+
